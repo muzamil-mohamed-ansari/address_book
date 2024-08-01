@@ -9,7 +9,8 @@ The project is creation of an address book application using FastAPI that perfor
 
 3) No GUI is required so the built-in FastAPI’s Swagger Doc is sufficient.
 
+
 To run the project please follow below steps:
     1. Install dependencies using pip install -r requirements.txt.
-    2. Run the application with uvicorn main:app --reload.
+    2. Run the application with uvicorn address_book.main:app --reload --port 8000
     3. Access the API documentation at http://127.0.0.1:8000/docs.
